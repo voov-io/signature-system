@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#department-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#department-list li {
+    width: 150px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#department-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#department-list li:nth-child(1) {
+    background-color: #ffe6e6;
+}
+
+#department-list li:nth-child(2) {
+    background-color: #fff4cc;
+}
+
+#department-list li:nth-child(3) {
+    background-color: #e6ffe6;
+}
+
+#department-list li:nth-child(4) {
+    background-color: #e6f2ff;
+}
+
+#department-list li:nth-child(5) {
+    background-color: #f2e6ff;
+}
+
+#department-list li:nth-child(6) {
+    background-color: #e6e6ff;
+}
+
+
+  header h1 {
+    margin-bottom: 5px;
+  }
+  
+  #department-list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #department-list li {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #department-list li:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f5f5f5;
+  }
+  
+  button.copy-btn,
+  button.download-btn {
+    margin-right: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+  }
+  
+  .copy-btn {
+    background-color: #4caf50; /* Verde */
+  }
+  
+  .download-btn {
+    background-color: #2196f3; /* Azul */
+  }
+  

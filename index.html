@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Email Signatures</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Email Signature Templates</h1>
+    <p>Select a department to view its email signature templates or search by name.</p>
+  </header>
+
+  <main>
+    <!-- Contenedor para la búsqueda -->
+    <section id="search-section">
+      <label for="search-input">Buscar colaborador:</label>
+      <input type="text" id="search-input" placeholder="Escribe el nombre..." />
+    </section>
+
+    <!-- Lista de departamentos -->
+    <ul id="department-list">
+      <li id="skillcloud">SKILLCLOUD</li>
+      <li id="management">MANAGEMENT</li>
+      <li id="executive">EXECUTIVE</li>
+      <li id="marketing">MARKETING</li>
+      <li id="isa">ISA</li>
+      <li id="it">IT</li>
+    </ul>
+
+    <!-- Aquí se inyectará la tabla de colaboradores -->
+    <section id="employee-table-section"></section>
+
+    <!-- Aquí se inyectará la firma individual (opcional) -->
+    <section id="template-section"></section>
+  </main>
+
+  <!-- SweetAlert2 (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Script principal -->
+  <script type="module" src="script.js" defer></script>
+</body>
+</html>
