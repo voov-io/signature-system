@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const employeeTableSection = document.getElementById("employee-table-section");
   const searchInput = document.getElementById("search-input");
 
+  let storedEmployees = localStorage.getItem("employeesData");
+if (storedEmployees) {
+  employeesData = JSON.parse(storedEmployees);
+}
+
   let currentDepartment = "";
 
   departmentList.addEventListener("click", (event) => {
@@ -55,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ${signatureHTML}
           </div>
           <div class="signature-actions">
+            <button class="edit-btn" data-id="${emp.id}">Editar</button>
             <button class="copy-btn" data-signature="${signatureBase64}">Copiar</button>
             <button class="download-btn" data-signature="${signatureBase64}">Descargar</button>
           </div>
@@ -64,6 +70,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     gridHTML += `</div>`;
     employeeTableSection.innerHTML = gridHTML;
+
+    document.querySelectorAll(".edit-btn").forEach((btn) => {
+      btn.addEventListener("click", handleEdit);
+    });
 
     document.querySelectorAll(".copy-btn").forEach((btn) => {
       btn.addEventListener("click", handleCopySignature);
@@ -83,41 +93,63 @@ document.addEventListener("DOMContentLoaded", () => {
     return template;
   }
 
+  function handleEdit(event) {
+    const employeeId = event.target.dataset.id;
+    const employee = employeesData.find(emp => emp.id == employeeId);
+    if (employee) {
+      showEditForm(employee);
+    }
+  }
+
+  function showEditForm(employee) {
+    Swal.fire({
+      title: "Editar Firma",
+      html: `
+        <input id="edit-name" class="swal2-input" value="${employee.name}" placeholder="Nombre">
+        <input id="edit-email" class="swal2-input" value="${employee.email}" placeholder="Correo">
+        <input id="edit-position" class="swal2-input" value="${employee.position}" placeholder="Posición">
+      `,
+      confirmButtonText: "Guardar",
+      showCancelButton: true,
+      preConfirm: () => {
+        return {
+          name: document.getElementById("edit-name").value,
+          email: document.getElementById("edit-email").value,
+          position: document.getElementById("edit-position").value
+        };
+      }
+    }).then((result) => {
+      if (result.isConfirmed) {
+        updateEmployee(employee.id, result.value);
+      }
+    });
+  }
+
+  function updateEmployee(id, updatedData) {
+    const index = employeesData.findIndex(emp => emp.id == id);
+    if (index !== -1) {
+      employeesData[index] = { ...employeesData[index], ...updatedData };
+  
+      // Save updated data to localStorage
+      localStorage.setItem("employeesData", JSON.stringify(employeesData));
+  
+      displayEmployees();
+      Swal.fire("Éxito", "Firma actualizada correctamente!", "success");
+    }
+  }
+
   function handleCopySignature(event) {
     const signatureBase64 = event.target.dataset.signature;
     const signatureHTML = atob(signatureBase64);
 
-    const tempContainer = document.createElement("div");
-    tempContainer.innerHTML = signatureHTML;
-    tempContainer.style.position = "absolute";
-    tempContainer.style.left = "-9999px";
-    document.body.appendChild(tempContainer);
-
-    const range = document.createRange();
-    range.selectNodeContents(tempContainer);
-
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-
-    try {
-      const success = document.execCommand("copy");
-      if (success) {
-        Swal.fire({
-          title: "Copiado",
-          text: "¡La firma se ha copiado al portapapeles con estilos!",
-          icon: "success",
-          confirmButtonText: "OK"
-        });
-      } else {
-        Swal.fire({
-          title: "Error",
-          text: "No se pudo copiar la firma al portapapeles.",
-          icon: "error",
-          confirmButtonText: "OK"
-        });
-      }
-    } catch (err) {
+    navigator.clipboard.writeText(signatureHTML).then(() => {
+      Swal.fire({
+        title: "Copiado",
+        text: "¡La firma se ha copiado al portapapeles con estilos!",
+        icon: "success",
+        confirmButtonText: "OK"
+      });
+    }).catch(err => {
       console.error("Error copying signature: ", err);
       Swal.fire({
         title: "Error",
@@ -125,10 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
         icon: "error",
         confirmButtonText: "OK"
       });
-    }
-
-    selection.removeAllRanges();
-    document.body.removeChild(tempContainer);
+    });
   }
 
   function handleDownloadSignature(event) {
@@ -147,4 +176,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
   }
+
+  displayEmployees();
 });
