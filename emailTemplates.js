@@ -26,7 +26,7 @@ const templates = {
                                       <tr>
                                           <td style="margin: 0.1px; padding: 0; font: 13.1px/16.5px Verdana;">
                                               <span style="color: #2cabe2; font: bold 13px Verdana;">Website:</span>&nbsp;
-                                              <a href="https://img.newoldstamp.com/r/646353/w?id=1" style="text-decoration: none; color: #19355f; font: 13px Verdana;" target="_blank">skillcloudstaffing.com</a>&nbsp;
+                                              <a href="https://skillcloudstaffing.com/" style="text-decoration: none; color: #19355f; font: 13px Verdana;" target="_blank">skillcloudstaffing.com</a>&nbsp;
                                           </td>
                                       </tr>
                                       <tr>
@@ -37,18 +37,18 @@ const templates = {
                                               <table cellpadding="0" style="border-collapse: collapse;">
                                                   <tr>
                                                       <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                          <a href="https://img.newoldstamp.com/r/646353/facebook" target="_blank" valign="top">
-                                                              <img src="https://img.newoldstamp.com/i/24/2/1/19355f/55.png?t=64" width="24" style="display: block; outline: 0;" valign="top" alt="facebook" />
+                                                          <a href="https://www.facebook.com/VOOVYourTopVirtualAssistantPartner" target="_blank" valign="top">
+                                                              <img src="./resources/facebook-sk.png" width="24" style="display: block; outline: 0;" valign="top" alt="facebook" />
                                                           </a>
                                                       </td>
                                                       <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                          <a href="https://img.newoldstamp.com/r/646353/instagram" target="_blank" valign="top">
-                                                              <img src="https://img.newoldstamp.com/i/24/2/1/19355f/98.png?t=0d" width="24" style="display: block; outline: 0;" valign="top" alt="instagram" />
+                                                          <a href="https://www.instagram.com/voov_north_america/" target="_blank" valign="top">
+                                                              <img src="./resources/instagram-sk.png" width="24" style="display: block; outline: 0;" valign="top" alt="instagram" />
                                                           </a>
                                                       </td>
                                                       <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                          <a href="https://img.newoldstamp.com/r/646353/linkedin" target="_blank" valign="top">
-                                                              <img src="https://img.newoldstamp.com/i/24/2/1/19355f/106.png?t=75" width="24" style="display: block; outline: 0;" valign="top" alt="linkedin" />
+                                                          <a href="https://www.linkedin.com/company/98386716" target="_blank" valign="top">
+                                                              <img src="./resources/linkedin-sk.png" width="24" style="display: block; outline: 0;" valign="top" alt="linkedin" />
                                                           </a>
                                                       </td>
                                                   </tr>
@@ -63,7 +63,7 @@ const templates = {
               </tr>
               <tr>
                   <td style="margin: 0.1px; padding: 10px 0 0; line-height: 1px; font-size: 1px;">
-                      <a href="https://img.newoldstamp.com/r/646353/b" target="_blank"><img src="https://img.newoldstamp.com/b/646353?t=27" width="438" style="outline: 0;" alt="banner" /></a>
+                      <a href="https://skillcloudstaffing.com" target="_blank"><img src="./resources/banner-skillcloud.gift" width="438" style="outline: 0;" alt="banner" /></a>
                   </td>
               </tr>
               <tr>
@@ -104,9 +104,9 @@ const templates = {
                                         <td style="margin: 0.1px; padding: 2px 0 0;">
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
-                                                    <td style="margin: 0.1px; padding: 0 5px 0 0;"><img src="https://img.newoldstamp.com/i/ib/212b5c/icon105/email.png?t=91" alt="" style="display: block;" width="14" /></td>
+                                                    <td style="margin: 0.1px; padding: 0 5px 0 0;"><img src="./resources/email.png" alt="" style="display: block;" width="14" /></td>
                                                     <td style="margin: 0.1px; padding: 0; font: 9.1px/11.4px Verdana;">
-                                                        <a href="https://img.newoldstamp.com/r/637080/e?id=1" style="text-decoration: none; color: #000000; font: 9px Verdana;" target="_blank">{{EMAIL}}</a>&nbsp;
+                                                        <a style="text-decoration: none; color: #000000; font: 9px Verdana;" target="_blank">{{EMAIL}}</a>&nbsp;
                                                     </td>
                                                 </tr>
                                             </table>
@@ -116,9 +116,9 @@ const templates = {
                                         <td style="margin: 0.1px; padding: 2px 0 0;">
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
-                                                    <td style="margin: 0.1px; padding: 0 5px 0 0;"><img src="https://img.newoldstamp.com/i/ib/212b5c/icon105/website.png?t=e3" alt="" style="display: block;" width="14" /></td>
+                                                    <td style="margin: 0.1px; padding: 0 5px 0 0;"><img src="./resources/website.png" alt="" style="display: block;" width="14" /></td>
                                                     <td style="margin: 0.1px; padding: 0; font: 9.1px/11.4px Verdana;">
-                                                        <a href="https://img.newoldstamp.com/r/637080/w?id=1" style="text-decoration: none; color: #000000; font: 9px Verdana;" target="_blank">www.voov.io</a>&nbsp;
+                                                        <a href="https://voov.io/" style="text-decoration: none; color: #000000; font: 9px Verdana;" target="_blank">www.voov.io</a>&nbsp;
                                                     </td>
                                                 </tr>
                                             </table>
@@ -135,19 +135,19 @@ const templates = {
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637080/facebook" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/212b5c/55.png?t=c0" width="20" valign="top" alt="facebook" /></a>
+                                                        <a href="https://www.facebook.com/VOOVYourTopVirtualAssistantPartner" target="_blank"><img src="./resources/facebook-voov.png" width="20" valign="top" alt="facebook" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637080/instagram" target="_blank">
-                                                            <img src="https://img.newoldstamp.com/i/20/1/1/212b5c/98.png?t=4b" width="20" valign="top" alt="instagram" />
+                                                        <a href="https://www.instagram.com/voov_north_america/" target="_blank">
+                                                            <img src="./resources/instagram-voov.png" width="20" valign="top" alt="instagram" />
                                                         </a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637080/youtube" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/212b5c/224.png?t=76" width="20" valign="top" alt="youtube" /></a>
+                                                        <a href="https://www.youtube.com/@VOOV_Group/videos" target="_blank"><img src="./resources/youtube-voov.png" width="20" valign="top" alt="youtube" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637080/linkedin" target="_blank">
-                                                            <img src="https://img.newoldstamp.com/i/20/1/1/212b5c/106.png?t=52" width="20" valign="top" alt="linkedin" />
+                                                        <a href="https://www.linkedin.com/company/98386716" target="_blank">
+                                                            <img src="./resources/linkeding-voov.png" width="20" valign="top" alt="linkedin" />
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -162,7 +162,7 @@ const templates = {
             </tr>
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0 0; line-height: 1px; font-size: 1px;">
-                    <a href="https://img.newoldstamp.com/r/637080/b" target="_blank"><img src="https://img.newoldstamp.com/b/637080?t=42" width="350" style="outline: 0;" alt="banner" /></a>
+                    <a href="https://voov.io/" target="_blank"><img src="./resources/banner-voov.gift" width="350" style="outline: 0;" alt="banner" /></a>
                 </td>
             </tr>
             <tr>
@@ -234,18 +234,18 @@ const templates = {
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637057/facebook" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/159ce8/55.png?t=c9" width="20" valign="top" alt="facebook" /></a>
+                                                        <a href="https://www.facebook.com/VOOVYourTopVirtualAssistantPartner" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/159ce8/55.png?t=c9" width="20" valign="top" alt="facebook" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637057/instagram" target="_blank">
+                                                        <a href="https://www.instagram.com/voov_north_america/" target="_blank">
                                                             <img src="https://img.newoldstamp.com/i/20/1/1/159ce8/98.png?t=a4" width="20" valign="top" alt="instagram" />
                                                         </a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637057/youtube" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/159ce8/224.png?t=4b" width="20" valign="top" alt="youtube" /></a>
+                                                        <a href="https://www.youtube.com/@VOOV_Group/videos" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/159ce8/224.png?t=4b" width="20" valign="top" alt="youtube" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/637057/linkedin" target="_blank">
+                                                        <a href="https://www.linkedin.com/company/98386716" target="_blank">
                                                             <img src="https://img.newoldstamp.com/i/20/1/1/159ce8/106.png?t=6e" width="20" valign="top" alt="linkedin" />
                                                         </a>
                                                     </td>
@@ -261,7 +261,7 @@ const templates = {
             </tr>
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0 0; line-height: 1px; font-size: 1px;">
-                    <a href="https://img.newoldstamp.com/r/637057/b" target="_blank"><img src="https://img.newoldstamp.com/b/637057?t=c1" width="350" style="outline: 0;" alt="banner" /></a>
+                    <a href="skillcloudstaffing.com" target="_blank"><img src="https://img.newoldstamp.com/b/637057?t=c1" width="350" style="outline: 0;" alt="banner" /></a>
                 </td>
             </tr>
             <tr>
@@ -333,18 +333,18 @@ const templates = {
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636990/facebook" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/ffce00/55.png?t=64" width="20" valign="top" alt="facebook" /></a>
+                                                        <a href="https://www.facebook.com/VOOVYourTopVirtualAssistantPartner" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/ffce00/55.png?t=64" width="20" valign="top" alt="facebook" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636990/instagram" target="_blank">
+                                                        <a href="https://www.instagram.com/voov_north_america/" target="_blank">
                                                             <img src="https://img.newoldstamp.com/i/20/1/1/ffce00/98.png?t=62" width="20" valign="top" alt="instagram" />
                                                         </a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636990/youtube" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/ffce00/224.png?t=3a" width="20" valign="top" alt="youtube" /></a>
+                                                        <a href="https://www.youtube.com/@VOOV_Group/videos" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/ffce00/224.png?t=3a" width="20" valign="top" alt="youtube" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636990/linkedin" target="_blank">
+                                                        <a href="https://www.linkedin.com/company/98386716" target="_blank">
                                                             <img src="https://img.newoldstamp.com/i/20/1/1/ffce00/106.png?t=ff" width="20" valign="top" alt="linkedin" />
                                                         </a>
                                                     </td>
@@ -432,18 +432,18 @@ const templates = {
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636997/facebook" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/81ce24/55.png?t=99" width="20" valign="top" alt="facebook" /></a>
+                                                        <a href="https://www.facebook.com/VOOVYourTopVirtualAssistantPartner" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/81ce24/55.png?t=99" width="20" valign="top" alt="facebook" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636997/instagram" target="_blank">
+                                                        <a href="https://www.instagram.com/voov_north_america/" target="_blank">
                                                             <img src="https://img.newoldstamp.com/i/20/1/1/81ce24/98.png?t=c4" width="20" valign="top" alt="instagram" />
                                                         </a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636997/youtube" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/81ce24/224.png?t=6f" width="20" valign="top" alt="youtube" /></a>
+                                                        <a href="https://www.youtube.com/@VOOV_Group/videos" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/81ce24/224.png?t=6f" width="20" valign="top" alt="youtube" /></a>
                                                     </td>
                                                     <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                        <a href="https://img.newoldstamp.com/r/636997/linkedin" target="_blank">
+                                                        <a href="https://www.linkedin.com/company/98386716" target="_blank">
                                                             <img src="https://img.newoldstamp.com/i/20/1/1/81ce24/106.png?t=4e" width="20" valign="top" alt="linkedin" />
                                                         </a>
                                                     </td>
@@ -531,18 +531,18 @@ const templates = {
                                           <table cellpadding="0" style="border-collapse: collapse;">
                                               <tr>
                                                   <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                      <a href="https://img.newoldstamp.com/r/669745/facebook" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/e82300/55.png?t=8d" width="20" valign="top" alt="facebook" /></a>
+                                                      <a href="https://www.facebook.com/VOOVYourTopVirtualAssistantPartner" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/e82300/55.png?t=8d" width="20" valign="top" alt="facebook" /></a>
                                                   </td>
                                                   <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                      <a href="https://img.newoldstamp.com/r/669745/instagram" target="_blank">
+                                                      <a href="https://www.instagram.com/voov_north_america/" target="_blank">
                                                           <img src="https://img.newoldstamp.com/i/20/1/1/e82300/98.png?t=59" width="20" valign="top" alt="instagram" />
                                                       </a>
                                                   </td>
                                                   <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                      <a href="https://img.newoldstamp.com/r/669745/youtube" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/e82300/224.png?t=da" width="20" valign="top" alt="youtube" /></a>
+                                                      <a href="https://www.youtube.com/@VOOV_Group/videos" target="_blank"><img src="https://img.newoldstamp.com/i/20/1/1/e82300/224.png?t=da" width="20" valign="top" alt="youtube" /></a>
                                                   </td>
                                                   <td style="margin: 0.1px; padding: 0 5px 0 0;">
-                                                      <a href="https://img.newoldstamp.com/r/669745/linkedin" target="_blank">
+                                                      <a href="https://www.linkedin.com/company/98386716" target="_blank">
                                                           <img src="https://img.newoldstamp.com/i/20/1/1/e82300/106.png?t=33" width="20" valign="top" alt="linkedin" />
                                                       </a>
                                                   </td>
